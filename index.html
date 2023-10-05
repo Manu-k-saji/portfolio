@@ -6,17 +6,27 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather:wght@900&family=Permanent+Marker&display=swap');
+    
+  @media(min-width:400px)and(max-width:600px){
+    h1{
+      font-size: small;
+    }
+  }
 
-</head>
+
+</style>
+    </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
+          <ul class="me-auto">
+            <img src="./images/download.png" alt="">
+            </ul>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <ul class="me-auto">
-          <img src="./images/download.png" alt="">
-          </ul>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -41,6 +51,116 @@
           </div>
         </div>
       </nav>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/backbroundluminar.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-block ms-0 mt-0 text-start">
+              <h1>Kerala's No.1 IT Finishing School<br>
+                  100% Placement Assistance
+              </h1>
+              <br><br>
+              <p>We LUMINAR TECHNOLAB offers best software training and placement in emerging<br>
+                 technologies like Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep Learning and AI.
+                  <br><br><br>
+                  <button class="btn btn rounded-5 py-3 px-4 mt-2" style="background-color: #5e068a ; color: white; font-size: large" >VIEW COURSES</button>
+              </p>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/background1.jpeg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-block ms-0 mt-0 text-start" >
+              <h1>Data Science, ML &amp; AI<br>
+                  Big Data - Hadoop &amp; Spark<br>
+                  Python Data Science
+              </h1>
+              <br><br>
+              <p>We LUMINAR TECHNOLAB offers best software training and placement in emerging <br> technologies like
+                  Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep Learning and AI.
+                  <br>
+                  <button class="btn btn rounded-5 py-3 px-4 mt-2" style="background-color: #5e068a ; color: white; font-size: large">VIEW COURSES</button>
+              </p>
+          </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #5e068a ; color: white; font-size: large">
+ 
+  Get Training Quote for free
+    
+</button>
+
+<!-- Modal -->
+<div class="modal fade p-1" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">
+          Get Training Quote for free
+      </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+
+        <form action="">
+          <input type="text" placeholder="Name"  style="border-style: none;">
+          <hr>
+          <input type="email" placeholder="Email"  style="border-style: none;">
+          <hr>
+          <input type="tele" placeholder="Phone number"  style="border-style: none;">
+          <hr>
+          <select class="noborder">
+              <option selected="true" disabled="disabled">
+                  Select course interested in
+              </option>
+              <option>
+                  Software Testing Specialist
+              </option>
+              <option>
+                  PYTHON DATA SCIENCE - ML - AI - &amp; Power BI
+              </option>
+              <option>
+                  MEA(R)N Stack Web Development Expert - Angular &amp; React
+              </option>
+              <option>
+                  Python Django - Angular- Full Stack Web Development Expert
+              </option>
+              <option>
+                  Asp.net MVC with Angular - Full Stack
+              </option>
+              <option>
+                  Android Developer Expert Training In Kochi- Flutter
+              </option>
+              <option>
+                  Java Spring Full Stack Development
+              </option>
+          </select>
+          <hr>
+          <input type="text" placeholder="City" style="border-style: none;">
+          <hr>
+          <textarea  style="border-style: none;" placeholder="Comments" rows="4"></textarea>
+          <hr>
+         
+          <button type="button" class="btn btn rounded-0 py-1 px-5"  style="background-color: #5e068a ; color: white; font-size: large">Submit</button>
+
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
     
 </body>
 </html>
