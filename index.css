@@ -1,0 +1,21 @@
+.testimonialsubWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+footer {
+    background-color: rgb(40, 10, 68);
+    margin: 2% 0% 2% 0%;
+}
+.footerRowwrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3% 0% 3% 0%;}
+    @media (min-width: 992px){
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;}}
+   
