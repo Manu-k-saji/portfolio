@@ -157,5 +157,24 @@ body{
     color: #0d8c91;
     font-family:'Poppins', sans-serif ;
 }
+.f1{
+    color: #0d8c91;
+    text-align: center;
+}
+.fa-laptop-code{
+    color: #0d8c91;
+}
+.card-title{
+    font-family: 'Young Serif', serif;
+}
+.card-subtitle{
+    font-family: 'Young Serif', serif;
+
+}
+.card-text{
+    font-size: medium;
+    
+}
+
 
 
